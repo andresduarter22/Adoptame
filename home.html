@@ -1,7 +1,7 @@
 <html>
     <head>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
 
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -20,17 +20,36 @@
             </ul>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <button class="nav-link btn btn-primary" href="#">Log In</button>
+                <button class="nav-link btn btn-primary btn-space"><a href="homeLogged.html" class="text-white">Log in</a></button>
               </li>
               <li class="nav-item ">
-                <button class="nav-link btn btn-primary" href="#">Sing Up</button>
+                <button type="button" class="nav-link btn btn-primary btn-space text-white" data-toggle="modal" data-target="#info">Sing up</button>
               </li>
+                <div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Información</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                        Es la pantalla de inicio para un usuario, puede presionar el boton de realizar reserva para reservar
+                        directamente las aulas las cuales se le asigne.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </ul>
           </nav>
           <nav class="navbar navbar-expand-sm bg-info navbar-dark">
             <ul class="navbar-nav ">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Busqueda</a>
+                <a class="nav-link" href="search.html">Busqueda</a>
               </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -40,7 +59,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Adóptame</a>
+                <a class="nav-link" href="profile.html">Mi perfil</a>
               </li>
             </ul>
           </nav>
