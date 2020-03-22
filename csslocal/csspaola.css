@@ -96,7 +96,6 @@ p.mbr-text.pb-3.mbr-fonts-style.display-2 {
 
 h1.mbr-section-title.mbr-bold.pb-3.mbr-fonts-style.display-1.border p {
     text-align: left;
-    font-size: 2rem;
 }
 
 div.container.align-center {
@@ -142,4 +141,35 @@ nav.navbar.navbar-expand-sm.navbar-dark{
 
 ul.navbar-nav:nth-child(3){
     margin-left: 12%;
+}
+
+div.modal-dialog div.modal-content{
+    background: linear-gradient(to bottom, #ff99cc 0%, #80e5e5 45%);
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.05);
+    font-size: 1.8rem;
+    color: #545454;
+    height: auto;
+}
+
+div.form-group input.form-control{
+    font-family: initial;
+}
+
+div.modal-body a.btn.btn-danger{
+    background-color: #545454 !important;
+    border-color: #545454 !important;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 400;
+    font-family: initial;
+}
+
+div.modal-content div.modal-header img{
+    height: 4rem;
+    margin-left: auto;
+}
+
+div.form-group i.fas{
+    margin-left: 20px;
 }
