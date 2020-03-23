@@ -131,16 +131,17 @@ div.card-box.align-center{
     padding-left: 60px;
 }
 
-nav.navbar.navbar-expand-sm.navbar-dark{
-    background: linear-gradient(to right, #ff99cc 0%, #80e5e5 45%);
+nav.navbar.navbar-expand{
+    background: linear-gradient(to top, #545454 0%, #212121 80%);
+    min-height: auto;
 }
 
-.navbar-expand-sm > ul:nth-child(1){
-    margin-right: 12%;
+section.menu:nth-child(3) > nav:nth-child(1) > ul:nth-child(1){
+    margin-left: 15%;
 }
 
 ul.navbar-nav:nth-child(3){
-    margin-left: 12%;
+    margin-right: 15%;
 }
 
 div.modal-dialog div.modal-content{
@@ -172,4 +173,15 @@ div.modal-content div.modal-header img{
 
 div.form-group i.fas{
     margin-left: 20px;
+}
+
+ul.navbar-nav li.nav-item.active a.nav-link{
+    color: #80e5e5;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+section.menu.cid-qTkzRZLJNu.sticky-top{
+    line-height: 0.8;
 }
