@@ -132,7 +132,7 @@ div.card-box.align-center{
 }
 
 nav.navbar.navbar-expand{
-    background: linear-gradient(to top, #545454 0%, #212121 80%);
+    background: linear-gradient(to bottom, #545454 0%, #212121 100%);
     min-height: auto;
 }
 
