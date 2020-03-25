@@ -275,7 +275,7 @@ div.profile-img div.file.btn.btn-lg.btn-primary {
 }
 .profile-head .nav-tabs .nav-link.active{
     border: none;
-    border-bottom:2px solid #0062cc;
+    border-bottom:2px solid #108a9e;
 }
 .profile-work{
     padding: 14%;
@@ -410,4 +410,9 @@ div.card.h-100 div.card-body p{
 
 div.card.h-100 div.card-footer p{
     margin-bottom: auto;
+}
+
+/*profile*/
+div#profile.tab-pane.fade.active.show div.container.form-group{
+    padding-left: inherit;
 }
